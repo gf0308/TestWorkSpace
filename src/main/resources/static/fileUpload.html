@@ -5,22 +5,25 @@
     <title>파일업로드</title>
 </head>
 <body>
-<h1>파일 업로드</h1>
-<form id="myForm" name="myForm" method="post" enctype="multipart/form-data" action="http://localhost:8080/fileUpload">
-    <p>
-<!--      <input type="file" name="file">-->
-      <input type="file" id="fileId" name="file">
-    </p>
-    <p>
-        <label>유저명</label>
-        <input type="text" id="userName" name="userName">
-    </p>
-    <p>
-        <label>유저패스워드</label>
-        <input type="text" id="userPwd" name="userPwd">
-    </p>
-  <input type="submit" value="저장">
-</form>
+    <h1>파일 업로드</h1>
+    <form id="myForm" name="myForm" method="post" enctype="multipart/form-data" action="/storeFile">
+        <p>
+            <label>사용자명</label>
+            <input type="text" id="name" name="name">
+        </p>
+        <p>
+            <label>나이</label>
+            <input type="text" id="age" name="age">
+        </p>
+        <p>
+            <label>직업</label>
+            <input type="text" id="job" name="job">
+        </p>
+        <p>
+            <input type="file" id="fileId" name="attachFile">
+        </p>
+      <input type="submit" value="저장">
+    </form>
 
 </body>
 </html>
