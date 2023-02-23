@@ -24,6 +24,10 @@ public class FileStoreService {
     @Value("${file.location}")
     private String storePath;
 
+    // test call method sayHello()
+    public String sayHello() { return "Hello...!! I am Service Layer!"; }
+
+
     public StoreResponse storeFile(MultipartFile file) throws IOException {
         log.info(this.getClass().getName());
         log.info(file.toString());
