@@ -52,7 +52,12 @@ public class IOTest {
  *    --- ByteArrayInputStream, ByteArrayOutputStream : '메모리' 대상 입출력 스트림
  *    --- PipedInputStream, PipedOutputStream : '프로세스' 대상 입출력 스트림
  *    --- AudioInputStream, AudioOutputStream : '오디오 장치' 대상 입출력 스트림
- *  -- 바이트기반 보조스트림
+ *  -- 바이트기반 보조스트림 : 바이트기반 보조스트림의 최고 조상 - 클래스 FilterInputStream, FilterOutputStream
+ *    --- FilterInputStream 의 자손  : BufferedInputStream, DataInputStream, PushbackInputStream
+ *    --- FilterOutputStream 의 자손 : BufferedOutputStream, DataOutputStream, PrintStream
+ *    
+ *    --- BufferedInputStream
+ *        : 입출력 효율을 높이기 위해 버퍼(byte[])를 사용하는 보조스트림
  *
  * - 문자기반 스트림
  *  -- 문자기반 스트림
