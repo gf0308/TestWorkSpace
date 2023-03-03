@@ -46,7 +46,7 @@ public class IOTest {
  *                              ex) bis.read();
  *
  * 상세
- * - 바이트기반 스트림 : 추상클래스 InputStream, OutputStream
+ * - 바이트기반 스트림 : 바이트기반스트림의 최고조상 - 추상클래스 InputStream, OutputStream
  *  -- 바이트기반 스트림
  *    --- FileInputStream, FileOutputStream : '파일' 대상 입출력 스트림
  *    --- ByteArrayInputStream, ByteArrayOutputStream : '메모리' 대상 입출력 스트림
