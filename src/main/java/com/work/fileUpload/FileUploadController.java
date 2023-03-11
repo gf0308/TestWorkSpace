@@ -9,7 +9,7 @@ import java.io.FileOutputStream;
 
 //@RestController
 
-@Controller
+//@Controller
 @ResponseBody
 public class FileUploadController {
 

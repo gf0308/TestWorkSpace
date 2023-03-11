@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/constructorInjection")
 @RequiredArgsConstructor
 @ResponseBody
-@Controller
+//@Controller
 public class ConstructorInjection {
 
     private final MemberService memberService;

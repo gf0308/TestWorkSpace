@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Slf4j
 @ResponseBody
 @RequestMapping("/fieldInjection")
-@Controller
+//@Controller
 public class FieldInjection {
 
     @Autowired

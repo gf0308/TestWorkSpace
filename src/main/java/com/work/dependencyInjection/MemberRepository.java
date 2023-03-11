@@ -2,7 +2,7 @@ package com.work.dependencyInjection;
 
 import org.springframework.stereotype.Repository;
 
-@Repository
+//@Repository
 public class MemberRepository {
 
     public String selectMember(String memberName) {

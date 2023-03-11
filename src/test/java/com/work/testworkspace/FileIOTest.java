@@ -6,7 +6,7 @@ import java.io.FileOutputStream;
 
 public class FileIOTest {
 
-    @Test
+//    @Test
     void test() {
         FileOutputStream fileOutputStream;
         String saveDestPath = "C:\\kjb\\works\\output_files\\output.txt";

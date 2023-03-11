@@ -2,7 +2,7 @@ package com.work.fileUploadTest;
 
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class SecondFileStoreService {
 
     public String saySecondHello() {

@@ -18,7 +18,7 @@ import java.util.UUID;
  * */
 
 @Slf4j
-@Service
+//@Service
 public class FileStoreService {
 
     @Value("${file.location}")

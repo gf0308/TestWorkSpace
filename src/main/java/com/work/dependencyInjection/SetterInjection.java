@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Slf4j
 @ResponseBody
 @RequestMapping("/setterInjection")
-@Controller
+//@Controller
 public class SetterInjection {
 
     private MemberService memberService; // final 처리는 굳이 하지 않았다.
